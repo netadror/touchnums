@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 250, 242);
+}
+
+h1 {
+    color: rgb(1, 84, 129);
+    margin-top: 60px;
+}
+
+table {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+.occupied {
+    background-color: rgb(40, 231, 78);
+}
